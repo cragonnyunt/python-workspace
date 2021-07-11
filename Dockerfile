@@ -14,8 +14,8 @@ RUN curl https://raw.githubusercontent.com/pyenv/pyenv-installer/master/bin/pyen
     echo "eval \"\$(pyenv init -)\"" >> ~/.zshrc && \
     echo "eval \"\$(pyenv virtualenv-init -)\"" >> ~/.zshrc
 
-RUN ~/.pyenv/bin/pyenv install -v 3.9.6 && \
-    ~/.pyenv/bin/pyenv global 3.9.6 && \
+RUN ~/.pyenv/bin/pyenv install -v 3.8.11 && \
+    ~/.pyenv/bin/pyenv global 3.8.11 && \
     ~/.pyenv/bin/pyenv rehash
 
 RUN pip --no-cache-dir install pipenv virtualenv ipython
