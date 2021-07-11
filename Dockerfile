@@ -18,6 +18,6 @@ RUN ~/.pyenv/bin/pyenv install -v 3.9.6 && \
     ~/.pyenv/bin/pyenv global 3.9.6 && \
     ~/.pyenv/bin/pyenv rehash
 
-RUN pip --no-cache-dir install pipenv virtualenv
+RUN pip --no-cache-dir install pipenv virtualenv ipython
 
 USER root
