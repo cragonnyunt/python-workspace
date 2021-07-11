@@ -10,8 +10,7 @@ Set of tools installed
 - Pip
 - pyenv
 - venv
-- pandas
-- various python libraries (see requirements.txt)
+- ipython
 
 ## Pulling the image
 
